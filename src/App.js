@@ -6,6 +6,7 @@ import AddUser from "./components/AddUser";
 import EditUser from "./components/EditUser";
 import Navbar from "./components/Navbar";
 import Charts from "./components/Charts";
+import LineGraph from "./components/LineGraph";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/adduser" element={<AddUser />} />
         <Route path="/edit-user/:id" element={<EditUser />} />
         <Route path="/charts" element={<Charts />} />
+        <Route path="/linegraph" element={<LineGraph />} />
       </Routes>
     </div>
   );

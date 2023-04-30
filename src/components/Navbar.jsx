@@ -44,6 +44,20 @@ export default function Example() {
           Charts
         </a>
       </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a
+          href="/linegraph"
+          className="flex items-center"
+          style={{ color: "red" }}
+        >
+          Line Graph
+        </a>
+      </Typography>
     </ul>
   );
 
